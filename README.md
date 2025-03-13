@@ -31,11 +31,14 @@ ejecuta esto en la terminal
 ## Tareas de Blessing  
 - ⭐ FirstHeading  
 - ⭐ Services  
-- ⭐ Footer  
+ 
 
 ---  
 
 ## Tareas de Dann  
 - ⭐ Navbar  
 - ⭐ Tagline  
-- ⭐ Contact 
+
+## Tareas de David 
+- ⭐ Contact
+- ⭐ Footer 
