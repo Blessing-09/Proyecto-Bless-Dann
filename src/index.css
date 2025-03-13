@@ -11,6 +11,12 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --clr-dark-blue: #0C2B4D;
+  --clr-intanse-blue: #0A4899;
+  --clr-intanse-red: #D20021;
+  --clr-mustard: #865504;
+  --clr-dark-musted: #301708;
 }
 
 a {
