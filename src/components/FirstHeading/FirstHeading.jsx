@@ -1,4 +1,4 @@
-import 'FirstHeading.css';
+import './FirstHeading.css';
 
 const FirstHeading = () => {
   return (

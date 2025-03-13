@@ -1,4 +1,4 @@
-import 'Tagline.css';
+import './Tagline.css';
 
 const Tagline = () => {
   return (
