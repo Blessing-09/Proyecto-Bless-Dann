@@ -1,15 +1,16 @@
-# DominosPizza ![Logo de Dominos Pizza](src/assets/img/logo-dominos-pizza.webp)
+# DominosPizza  <img src="src/assets/img/logo-dominos-pizza.webp" width="20" height="20">
+
 
 ![Table-Pizzas](src/assets/img/img-table-pizza.webp)
 
 ## Pizzas
 
-- ![Pizza Barbacoa](src/assets/img/BarbacoaDelivery_B2200113_0_ES.webp)
-- ![Pizza 4 Queso](src/assets/img/CuatroQuesosDelivery_42200923_0.webp)
-- ![Pizza MArgarita](src/assets/img/MargaritaDelivery_M2200214_0_ES.webp)
-- ![Pizza Pecado Carnal](src/assets/img/PecadoCarnalDeliver_C2200113_0_E.webp)
-- ![Pizza Texas BBQ](src/assets/img/TexasBBQCrispyDelivery_TS220921.webp)
-- ![Pizza Pepperoni](src/assets/img/TonyPepperoniDelivery_O2190725_0.webp)
+![Pizza Barbacoa](src/assets/img/BarbacoaDelivery_B2200113_0_ES.webp)
+![Pizza 4 Queso](src/assets/img/CuatroQuesosDelivery_42200923_0.webp)
+![Pizza MArgarita](src/assets/img/MargaritaDelivery_M2200214_0_ES.webp)
+![Pizza Pecado Carnal](src/assets/img/PecadoCarnalDeliver_C2200113_0_E.webp)
+![Pizza Texas BBQ](src/assets/img/TexasBBQCrispyDelivery_TS220921.webp)
+![Pizza Pepperoni](src/assets/img/TonyPepperoniDelivery_O2190725_0.webp)
 
 
 ## Descripción del Proyecto  
