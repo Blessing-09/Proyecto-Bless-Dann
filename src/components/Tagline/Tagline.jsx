@@ -1,3 +1,5 @@
+import 'Tagline.css';
+
 const Tagline = () => {
   return (
     <>

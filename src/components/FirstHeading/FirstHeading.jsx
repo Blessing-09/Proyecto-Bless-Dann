@@ -1,3 +1,5 @@
+import 'FirstHeading.css';
+
 const FirstHeading = () => {
   return (
     <>
