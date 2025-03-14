@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+
+.tagline-imagen-precio {
+  position: relative;
+}
+
+.tagline-precio-oferta {
+  position: absolute;
+  top: 0;
+  font-family: Passion One;
+  color: #fff;
+  animation:aumento calc(3) 1s linear;
+}
+@keyframes aumento {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@media (min-width: 1124px) {
+  .tagline-box {
+    max-width: 80%;
+  }
+}
