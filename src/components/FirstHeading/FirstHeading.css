@@ -1,0 +1,70 @@
+
+.carousel-item img {
+    /* width: 100%;  */
+    height: auto;
+  }
+  .carousel-item .row {
+    display: flex;
+    justify-content: space-between; /* Horizontally center */
+    align-items: center;     /* Vertically center */
+    height: 30vh; 
+  }
+  .carousel-item .col {
+    padding: 5px;
+  }
+  .pizza {
+   font-size: 70px;
+   font-weight: bolder;
+  }
+
+  .btn {
+    position: absolute;
+    top: 20px; 
+    right: 12px;
+    background-color: antiquewhite;
+    padding: 24px;
+    border: none;
+    border-radius: 0;
+  }
+  .btn:hover {
+    background-color: antiquewhite;
+   color: initial;
+  }
+  /* .green {
+    background-color: antiquewhite;
+  } */
+  /* .black {
+    background-color: antiquewhite;
+  } */
+  /* Ensure the carousel always takes up the full width */
+#carouselExample {
+    width: 100% !important; /* Always 100% width */
+    background-color: antiquewhite;
+    overflow-x: hidden;
+  }
+  
+  .collapse {
+    width: 100% !important; /* Keep the collapse container at full width */
+    max-height: 0; /* Start with 0 max-height when collapsed */
+    overflow: hidden; /* Prevent content overflow */
+    opacity: 0; /* Set initial opacity to 0 */
+    visibility: hidden; /* Hide initially */
+    transition: opacity 0.9s ease-in-out, max-height 2s ease-in-out; /* Smooth transitions */
+   
+  }
+  
+  /* When the collapse is shown, ensure it's visible and its height is auto */
+  .collapse.show {
+    visibility: visible; /* Make it visible when shown */
+    max-height: 5000px; /* Set a large enough value to ensure smooth opening */
+    opacity: 1; /* Make it fully opaque */
+    transition: opacity 0.9s ease-in-out, max-height 2s ease-in-out; /* Apply transition */
+    width: 50%;
+  }
+  
+  /* When the collapse is not shown, hide it completely */
+  .collapse:not(.show) {
+    opacity: 0; /* Make it invisible */
+    visibility: hidden; /* Hide the content */
+    max-height: 0; /* Collapse to 0 height to prevent expansion */
+  }
