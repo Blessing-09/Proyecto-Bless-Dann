@@ -1,16 +1,33 @@
-.headerAllnavbars{
-  background-color: bisque;
-}
-#navbarItemsShow a{
-  text-decoration: none;
-  font-family: Arial, sans-serif;
-  font-weight: 700;
-  color: #333333;
+.NavbarAll {
+  /* box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7); */
+  position: sticky;
+  top: 0;
+  margin-bottom: 0.3rem;
+  z-index: 1;
 }
 
+.logo {
+  width: fit-content;
+}
 
-@media (min-width: 1124px) {
-  .headerAllnavbars {
-    max-width: 90%;
-  }
+#first-nav {
+  font-size: 1rem;
+}
+#first-nav img {
+  width: 2rem;
+  margin-right: 0.5rem;
+}
+.element-navbar2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #232323;
+}
+.btn-element-navbar2 {
+  padding: 0.5rem 2rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #d5002e;
+  color: #fff;
 }
