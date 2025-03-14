@@ -1,4 +1,6 @@
-
+.headerAllnavbars{
+  background-color: bisque;
+}
 #navbarItemsShow a{
   text-decoration: none;
   font-family: Arial, sans-serif;
@@ -6,3 +8,9 @@
   color: #333333;
 }
 
+
+@media (min-width: 1124px) {
+  .headerAllnavbars {
+    max-width: 90%;
+  }
+}
