@@ -1,16 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap");
 
 .tagline-imagen-precio {
   position: relative;
 }
-
+.tagline-imagen-croissant {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
 .tagline-precio-oferta {
   position: absolute;
-  top: 0;
+  font-size: 5rem;
+  top: 43%;
+  left: 18%;
+  z-index: 1;
   font-family: Passion One;
   color: #fff;
-  animation:aumento calc(3) 1s linear;
+  filter: drop-shadow(0 0 5px #fff);
+  animation: aumento calc(20) 1s linear;
 }
 @keyframes aumento {
   0% {
@@ -25,6 +32,6 @@
 }
 @media (min-width: 1124px) {
   .tagline-box {
-    max-width: 80%;
+    max-width: 90%;
   }
 }
