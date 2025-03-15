@@ -1,0 +1,40 @@
+
+/* .carousel-item img {
+    height: auto;
+  } */
+  /* .carousel-item .row {
+    height: 30vh; 
+  } */
+ 
+  #carouselExampleControls {
+    height: 100%; 
+    background-color: rgb(255, 255, 255);
+    transition: opacity 0.9s ease-in-out;
+  }
+
+  .hello {
+    height: 410px;
+  }
+  
+  .carousel, .carousel-inner, .carousel-item {
+    height: 100%;  /* Set the carousel to fill 100% of the parent container's height */
+  }
+  
+  .carousel-item img {
+    object-fit: cover; 
+    /* width: 100%;      
+    height: 100%;       */
+  }
+
+  p {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+
+
+  /* .carousel, .carousel-inner {
+    overflow: visible; 
+  } */
