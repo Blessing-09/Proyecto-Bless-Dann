@@ -1,8 +1,8 @@
 import Logo from "../../assets/img/dominos-logo.svg";
 import LoginIcon from "../../assets/icons/user-icon-animated.gif";
-import "./Navbar.css";
+import "./HomePageNavbar.css";
 
-const Navbar = () => {
+const HomePageNavbar = () => {
   return (
     <div className="NavbarAll row d-flex justify-content-center bg-body-tertiary navbar-expand-lg">
       <section className="logo col-3 d-flex justify-content-center align-items-center">
@@ -25,7 +25,6 @@ const Navbar = () => {
     </div>
   );
 };
-
 function NavbarFirst() {
   return (
     <nav
@@ -175,4 +174,4 @@ function NavbarSecond() {
     </nav>
   );
 }
-export default Navbar;
+export default HomePageNavbar;

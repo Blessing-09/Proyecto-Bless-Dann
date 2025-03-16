@@ -1,10 +1,10 @@
-import "./Tagline.css";
+import "./HomePageTagline.css";
 
 import PruebalosAhora from "../../assets/img/2_pakecomp_pollos_MV.webp";
 import Pakecomartas from "../../assets/img/1_pakecomp_pollos_PC.webp";
 import Stylecroissant from "../../assets/img/999crois_rec_coreg_nopedido_PC.webp";
 
-const Tagline = () => {
+const HomePageTagline = () => {
   return (
     <div className="tagline-box container-xl p-0 overflow-hidden">
       <div className="tagline-imagen-precio">
@@ -37,4 +37,4 @@ const Tagline = () => {
     </div>
   );
 };
-export default Tagline;
+export default HomePageTagline;

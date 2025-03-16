@@ -1,25 +1,22 @@
-import Navbar from './components/Navbar/Navbar.jsx'
-import Footer from './components/Footer/Footer.jsx'
-import FirstHeading from './components/FirstHeading/FirstHeading.jsx'
-import Services from './components/Services/Services.jsx'
-import Tagline from './components/Tagline/Tagline.jsx'
-import Contact from './components/Contact/Contact.jsx'
-
-import './App.css'
-
+import HomePageNavbar from "./components/HomePageNavbar/HomePageNavbar.jsx";
+import HomePageTagline from "./components/HomePageTagline/HomePageTagline.jsx";
+import HomePageFirstHeading from "./components/HomePageFirstHeading/HomePageFirstHeading.jsx";
+import HomePageServices from "./components/HomePageServices/HomePageServices.jsx";
+import HomePageContact from "./components/HomePageContact/HomePageContact.jsx";
+import HomePageFooter from "./components/HomePageFooter/HomePageFooter.jsx";
+import "./App.css";
 
 function App() {
-
   return (
     <>
-      <Navbar/>
-      <Tagline/>
-      <FirstHeading/>
-      <Services/>
-      <Contact/>
-      <Footer/>
+      <HomePageNavbar />
+      <HomePageTagline />
+      <HomePageFirstHeading />
+      <HomePageServices />
+      <HomePageContact />
+      <HomePageFooter />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
