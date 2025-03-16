@@ -1,0 +1,18 @@
+
+.carouselBtn {
+    position: absolute;
+}
+.button-prev {
+    position: relative;
+    bottom: 180px;
+    left: -5px;
+    background-color: blue;
+    /* filter: hue-rotate(180deg) saturate(3) brightness(0.8); */
+}
+.button-next {
+    position: relative;
+    bottom: 180px;
+    left: 1232px;
+    background-color: blue;
+    /* filter: hue-rotate(180deg) saturate(3) brightness(0.8); */
+}

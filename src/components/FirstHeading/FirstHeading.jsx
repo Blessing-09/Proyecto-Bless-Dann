@@ -9,55 +9,56 @@ const FirstHeading = () => {
     <div  className='container-fluid position-relative'> 
       <div className='row'>
         <div className='col-sm-12'>
-          <h1 className="pizza" >Pizzas</h1>
+          <h1 className="pizzas-text" >Pizzas</h1>
         </div>
        </div>
 
-        <div className='row green'>
+        <div className='row'>
         <div className='col-sm-6 col-md-12 black'>
           <div className='btn dropdown-toggle' type="button" data-bs-toggle="collapse" data-bs-target="#demo">
             ¿Conoces nuestras masas?
           </div>
-            <div className="collapse show" id="demo">
+
+            <div className="collapse hidden" id="demo">
             <div id="carouselExample" className="carousel slide w-50">  
          
             <div className="carousel-inner">
             <div className="carousel-item active">
-      <div className="row">
-        <div className="col-2">
-          <img src={masaRoll} className="d-block w-100" alt="Image 1"/>
-        </div>
-        <div className="col-2">
-          <img src={masaRoll} className="d-block w-100" alt="Image 2"/>
-        </div>
-        <div className="col-2">
-          <img src={masaRoll} className="d-block w-100" alt="Image 3"/>
-        </div>
-        <div className="col-2">
-          <img src={masaRoll} className="d-block w-100" alt="Image 4"/>
-        </div>
-        <div className="col-2">
-          <img src={masaRoll} className="d-block w-100" alt="Image 5"/>
-        </div>
-      </div>
+              <div className="row">
+                <div className="col-2">
+                  <img src={masaRoll} className="d-block w-100" alt="Image 1"/>
+                </div>
+                <div className="col-2">
+                  <img src={masaRoll} className="d-block w-100" alt="Image 2"/>
+                </div>
+                <div className="col-2">
+                  <img src={masaRoll} className="d-block w-100" alt="Image 3"/>
+                </div>
+                <div className="col-2">
+                  <img src={masaRoll} className="d-block w-100" alt="Image 4"/>
+                </div>
+                <div className="col-2">
+                  <img src={masaRoll} className="d-block w-100" alt="Image 5"/>
+                </div>
+              </div>
     </div>
 
     <div className="carousel-item">
       <div className="row">
         <div className="col-2">
-          <img src={masaRoll} className="d-block w-100" alt="Image 1"/>
+          <img src={masaRoll} className="d-block w-100" alt="Image 6"/>
         </div>
         <div className="col-2">
-          <img src={masaRoll} className="d-block w-100" alt="Image 2"/>
+          <img src={masaRoll} className="d-block w-100" alt="Image 7"/>
         </div>
         <div className="col-2">
-          <img src={masaRoll} className="d-block w-100" alt="Image 3"/>
+          <img src={masaRoll} className="d-block w-100" alt="Image 8"/>
         </div>
         <div className="col-2">
-          <img src={masaRoll} className="d-block w-100" alt="Image 4"/>
+          <img src={masaRoll} className="d-block w-100" alt="Image 9"/>
         </div>
         <div className="col-2">
-          <img src={masaRoll} className="d-block w-100" alt="Image 5"/>
+          <img src={masaRoll} className="d-block w-100" alt="Image 10"/>
         </div>
       </div>
     </div>
