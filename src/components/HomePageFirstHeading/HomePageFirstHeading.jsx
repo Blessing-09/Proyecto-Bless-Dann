@@ -173,7 +173,7 @@ function NavbarFirstHeading() {
                   href="#"
                 
                 >
-                  Bedidas
+                  Bebidas
                 </a>
               </li>
             </ul>
