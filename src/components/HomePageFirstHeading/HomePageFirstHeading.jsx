@@ -148,7 +148,38 @@ const HomePageFirstHeading = () => {
 function NavbarFirstHeading() {
   return (
     <>
-      <h1>Soy el Navbar del FirstHeading</h1>
+      <div className="container-fluid px-0">
+        <div className="row">
+          <div className="col-12">
+            <ul className="nav justify-content-center align-items-center bottomNav">
+              <li className="nav-item">
+                <a className="nav-link active navBText" aria-current="page" href="#">
+                 Pizzas
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link navBText" href="#">
+                  Entrantes
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link navBText" href="#">
+                  Postres
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link navBText"
+                  href="#"
+                
+                >
+                  Bedidas
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
